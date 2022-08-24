@@ -1,0 +1,46 @@
+.column {
+    width: calc(100% / 3);
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    padding: unset;
+}
+
+.wrapper {
+    max-width: 1330px;
+    margin: 0 auto;
+}
+
+.inner-wrap {
+    display: flex;
+    flex-wrap: nowrap;
+    column-gap: 60px;
+}
+
+.todo__single-box {
+    padding: 40px 20px;
+    display: block;
+    background: #5fa2dd;
+    border-radius: 16px;
+    margin-top: 20px;
+    box-shadow: 5px 5px 11px #0d425212;
+}
+
+.todo__textfield {
+    height: 80px;
+    width: 100%;
+    border: none;
+    box-shadow: inset 5px 5px 11px #0d425212;
+    border-radius: 3px;
+}
+
+.todo__button-wrapper {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
